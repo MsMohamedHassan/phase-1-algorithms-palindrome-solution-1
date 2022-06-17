@@ -13,7 +13,7 @@ function reverseString(word) {
 
 
 function isPalindrome(word) {
-  // reverse the input string
+  // reverse the string
   const reversedWord = reverseString(word);
   // if the reversed string is the same as the input
   if (word === reversedWord) {
@@ -26,6 +26,12 @@ function isPalindrome(word) {
 
 /* 
   Add your pseudocode here
+  If the word is the same as as the word in reverse,it should return true
+  Reverse the string
+  If input is the same as the reversed input return true
+  else
+  return false
+
 */
 
 /*
